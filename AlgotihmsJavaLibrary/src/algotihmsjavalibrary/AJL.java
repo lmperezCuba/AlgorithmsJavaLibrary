@@ -12,7 +12,7 @@ import DataStructures.UnionFindDisjoinSet;
  * <pre>
  * ====================             version Alpha           ====================
  * This is just a library for production usage.
- * https://github.com/lmperezCuba/TeamReferenceAlgorithms/tree/18.10.
+ * https://github.com/lmperezCuba/AlgorithmsJavaLibrary
  * +10 Classical Solutions (CS)
  * ====================                 Usage               ====================
  * <code>
