@@ -14,6 +14,8 @@ import algotihmsjavalibrary.AJL;
  * You can use a cummulative table if you array do not update.
  * [1] page.84, [6] page.86
  * https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/#_=_
+ * Problem Codesignal
+ * https://app.codesignal.com/interview-practice/task/8tJAmQkq5pTCewQSj
  * </pre>
  *
  * @author lmperez

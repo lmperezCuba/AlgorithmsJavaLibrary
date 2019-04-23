@@ -1,8 +1,6 @@
 package algotihmsjavalibrary;
 
-import DynamicProgramming.CoinChange;
-import DynamicProgramming.KnapSack0_1_Subset_Sum;
-import DynamicProgramming.KnapSackMultiplesObjects;
+import GraphTheory.TravelingSalesmanBitonic;
 
 /**
  * AlgorithmsJavaLibrary
@@ -51,33 +49,43 @@ import DynamicProgramming.KnapSackMultiplesObjects;
  * 2. The NEW algorithms are identified by three asterics (***)
  * 3. The FIXED algorithms are identified by three plus characters(+++)
  * =========================================================================
- * Index (14 Algorithms)
+ * Index (20 Algorithms)
  *
  * =========================================================================
  * 2.Backtracking (1)
- * - N Queens Chess (Classical)                                         ***
+ * - N Queens Chess (Classical)                                                                                         ***
  * =========================================================================
  * 3.Data Structure (5)
- * - Binary Indexed (Fenwick) Tree 1D                                   ***
- * - Binary Indexed (Fenwick) Tree 2D                                   ***
- * - RMQ (Range Min|Max Query)                                          ***
- * - Segment Tree (Range Min|Max|Sum Query)                             ***
- * - Union-Find Disjoin-Set                                             ***
+ * - Binary Indexed (Fenwick) Tree 1D                                                                                ***
+ * - Binary Indexed (Fenwick) Tree 2D                                                                                ***
+ * - RMQ (Range Min|Max Query)                                                                                        ***
+ * - Segment Tree (Range Min|Max|Sum Query)                                                                ***
+ * - Union-Find Disjoin-Set                                                                                                  ***
  * ========================================================================
- * 4. Dynamic Programming (6)
- * - Coin Change                                                        ***
- * - KnapSack 0 - 1 (Subset Sum)                                        ***
- * - KnapSack Multiples Objects                                         ***
- * - LongestIncreasingSubsequence                                       ***
- * - Max 1D Range Sum (Kadane’s algorithm)                              ***
- * - Max 2D Range Sum                                                   ***
+ * 4. Dynamic Programming (8)
+ * - Coin Change                                                                                                                   ***
+ * - KnapSack 0 - 1 (Subset Sum)                                                                                        ***
+ * - KnapSack Multiples Objects                                                                                         ***
+ * - LongestIncreasingSubsequence                                                                                   ***
+ * - Max 1D Range Sum (Kadane’s algorithm)                                                                    ***
+ * - Max 2D Range Sum                                                                                                        ***
+ * - Tiling Problem                                                                                                                ***
+ * - Traveling Salesman Maze Problem (TSMP)                                                                 ***
  * ========================================================================
- * 5.Graph Theory (1)
- * - Kirchhoffs                                                         ***
+ * 5.Graph Theory (3)
+ * - Kirchhoffs                                                                                                                       ***
+ * - Traveling Salesman Bitonic                                                                                           ***
+ * - Traveling Salesman Problem (TSP)                                                                               ***
  * ========================================================================
  * 6.Matemathics (1)
- * - Gauss-Jordan                                                       ***
- * 
+ * - Gauss-Jordan                                                                                                                  ***
+ * ========================================================================
+ * 7.Number Theory (1)
+ * - Modular Inverse                                                                                                              ***
+ * ========================================================================
+ * 8.String Processing (1)
+ * - Regular Expression Matching                                                                                        ***
+ *
  * </pre>
  *
  * @version 1.0
@@ -91,8 +99,10 @@ public class AJL {
     public static void main(String[] args) {
         // Try your code here
         // If you want to test some algorithm just create a new object an press F6.
-        KnapSackMultiplesObjects k = new KnapSackMultiplesObjects();
-        k.testCase1();
+        TravelingSalesmanBitonic t = new TravelingSalesmanBitonic();
+        t.testCase1();
+        t.testCase2();
+        t.testCase3();
     }
 
 }
