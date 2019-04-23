@@ -6,7 +6,7 @@ import GraphTheory.TravelingSalesmanBitonic;
  * AlgorithmsJavaLibrary
  *
  * <pre>
- * ====================             version 1.0             ====================
+ * ====================             version 2.0             ====================
  * This is just a library for production usage.
  * https://github.com/lmperezCuba/AlgorithmsJavaLibrary
  * +10 Classical Solutions (CS)
